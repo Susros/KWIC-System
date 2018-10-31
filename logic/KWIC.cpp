@@ -1,10 +1,6 @@
 //	Implementation of KWIC.h
 //
-//  Author        : Zaw Moe Htat (c3193528@uon.edu.au)
-//  Course        : SENG 3130 - Software Architecture and Quality Management
-//	Assignment    : The Design and Implementation of The KWIC System
-//  Program       : B.Eng (Hons) (Software)
-//  Last Modified : 11/04/2018
+//  Author : Kelvin Yin (contact@kelvinyin.com)
 
 #include "KWIC.h"
 
