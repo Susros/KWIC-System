@@ -3,20 +3,22 @@ The KWIC [Key Word in Context] index system accepts an ordered set of lines, eac
 
 # Compilation
 To compile sourcecodes, run:
-''' 
+``` 
 	make clean 
 	make
-'''
+```
 
 Then, run executable file:
-''' ./app '''
+```
+	./app
+```
 
 # User Interface
 This implementation is using CLI (Command Line Interface) which accepts the following key:
-1. 'a': Add new text
-2. 'd': Delete text
-3. 'p': Print list of text by shifts sorting alphabetically
-4. 'q': Exit the system
+1. **a**: Add new text
+2. **d**: Delete text
+3. **p**: Print list of text by shifts sorting alphabetically
+4. **q**: Exit the system
 
 # Circularly Shift Algorithm
 Circularly shift algorithm in this KWIC system is using merge sort algorithm. The text is chunked into words and each words are pushed into vector. Circularly shift algorithm shift all words and construct into a string then merge sort algorithm sort all text constructed by circularly shift algorithm alphabetically.
